@@ -1,0 +1,7 @@
+<launch>
+    <!-- Fist Publisher launch file -->
+    <node 
+        pkg="first_publisher" type="first_publisher.py" name="velocity_publisher"  output="screen">
+    </node>
+</launch>
+
